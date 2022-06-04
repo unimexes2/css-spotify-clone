@@ -16,8 +16,8 @@ body {
     flex-wrap: wrap;
     width: 100%;
     flex-direction: row;
-       justify-content: space-between;
-       margin:5px;
+    justify-content: space-between;
+    margin: 5px;
 }
 
 #logo {
@@ -29,7 +29,7 @@ body {
 #but {
     display: flex;
     font-size: xx-large;
- 
+
     align-self: center;
 
 }
@@ -38,23 +38,38 @@ body {
     margin: 30px;
 }
 
+
 #land {
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
-    font-size: 7rem;
+    font-size: 5rem;
     background-image: url("/images/landing.jpg");
     color: white;
-    padding: 30rem 15rem 30rem 15rem;
+    padding: 7rem 7rem 7rem 7rem;
     background-size: contain;
     text-align: center;
 }
 
-#main-text{
-    text-align: center;
-    font-size:10rem;
-
-
+#main-text {
+    font-size: 10rem;
 }
-h1{padding: 0pm;}
+
+h1 {
+    text-align: center;
+    padding: 0pm;
+    font-size: 5rem;
+    font-weight: bolder;
+    /* text-decoration:  underline solid green 5px; */
+}
+
+hr {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7px;
+    border-width: 0;
+    color: green;
+    background-color: green;
+}
