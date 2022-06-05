@@ -73,3 +73,75 @@ hr {
     color: green;
     background-color: green;
 }
+
+#upper-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    border: solid orange 5px;
+    padding: 5em;
+}
+
+.elem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+    border: solid yellow 5px;
+    padding: 4rem;
+    font-size: 4rem;
+    margin: 6rem;
+    width: 20%;
+}
+.small-img{
+    width: 30%;
+    height: auto;
+    align-self: center;
+
+}
+
+h3 {
+    color: green
+}
+
+#last {
+    display: flex;
+    color: white;
+    background-color: green;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+#last-text {
+    margin: 5%;
+    width: 30%;
+    font-size: 2.5rem;
+    color: white;
+    padding: 2rem;
+}
+
+#spoty-sign {
+    align-self: center;
+    width: 25%;
+    display: flex;
+}
+
+#spoty-sign-image {
+    width: 30%;
+    height: auto;
+}
+
+#flute {
+    width: 20%;
+    align-self: center;
+    display: flex;
+}
+
+
+h5 {
+    text-decoration: underline;
+    font-size: 4rem;
+}
